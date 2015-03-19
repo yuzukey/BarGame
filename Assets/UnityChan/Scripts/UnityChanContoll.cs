@@ -6,8 +6,9 @@ public class UnityChanContoll : MonoBehaviour
 
     private Animator animator;
     private CharacterController Controller;
-    public bool isGround = false;
-
+    public bool isGround = false; 
+    public bool jump = false;
+    
     // Use this for initialization
     void Start()
     {
@@ -29,11 +30,15 @@ public class UnityChanContoll : MonoBehaviour
             animator.SetBool("is_running", false);
         }
 
-        if (Input.GetKey("space") && isGround)
+        if (Input.GetKey("space") /*&& isGround*/)
         {
             transform.position += transform.up * 0.01f;
+            /*isGround = false;*/
+
             animator.SetBool("is_jamping", true);
-            isGround = false;
+
+            /*jump = true;
+            GetComponent<Animator>().SetBool("is_jamping", jump);*/
         }
         else
         {
