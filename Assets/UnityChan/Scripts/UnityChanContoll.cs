@@ -6,8 +6,7 @@ public class UnityChanContoll : MonoBehaviour
 
     private Animator animator;
     private CharacterController Controller;
-    public bool isGround = false; 
-    public bool jump = false;
+    public bool isGround = true; 
     
     // Use this for initialization
     void Start()
@@ -30,15 +29,10 @@ public class UnityChanContoll : MonoBehaviour
             animator.SetBool("is_running", false);
         }
 
-        if (Input.GetKey("space") /*&& isGround*/)
+        if (Input.GetKey("space") && isGround)
         {
-            transform.position += transform.up * 0.01f;
-            /*isGround = false;*/
-
+            rigidbody.AddForce(Vector3.up * 5);
             animator.SetBool("is_jamping", true);
-
-            /*jump = true;
-            GetComponent<Animator>().SetBool("is_jamping", jump);*/
         }
         else
         {
@@ -56,11 +50,13 @@ public class UnityChanContoll : MonoBehaviour
         }
     }
 
-    private void OnCollisionEnter(CharacterController Controller)
+    private void OnCollisionEnter(Collision collisionInfo)
     {
-        if (Controller.collider.gameObject.name == "Floor")
-        {
-            isGround = true;
-        }
+        isGround = true;
+    }
+
+    private void OnCollisionExit(Collision collisionInfo)
+    {
+        isGround = false;
     }
 }
