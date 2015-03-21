@@ -1,13 +1,13 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class UnityChanContoll : MonoBehaviour
+public class testcontoll : MonoBehaviour
 {
 
     private Animator animator;
     private CharacterController Controller;
-    public bool isGround = true; 
-    
+    public bool isGround = true;
+
     // Use this for initialization
     void Start()
     {
@@ -31,7 +31,7 @@ public class UnityChanContoll : MonoBehaviour
 
         if (Input.GetKey("space") && isGround)
         {
-            rigidbody.AddForce(Vector3.up * 100);
+            rigidbody.AddForce(Vector3.up * 5);
             animator.SetBool("is_jamping", true);
         }
         else
