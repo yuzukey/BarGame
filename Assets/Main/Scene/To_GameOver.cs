@@ -17,7 +17,7 @@ public class To_GameOver : MonoBehaviour {
     {
         if (other.CompareTag("Miss"))
         {
-            Application.LoadLevel(0);
+            Application.LoadLevel("GameOver");
         }
     }
 }

@@ -15,6 +15,6 @@ public class Start_Scene : MonoBehaviour {
 
     public void Click()
     {
-         Application.LoadLevel(1);
+         Application.LoadLevel("TheGame");
     }
 }

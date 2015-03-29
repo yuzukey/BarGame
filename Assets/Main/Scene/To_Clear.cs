@@ -17,7 +17,7 @@ public class To_Clear : MonoBehaviour {
     {
         if (other.CompareTag("Clear"))
         {
-            Application.LoadLevel(2);
+            Application.LoadLevel("Clear");
         }
     }
 }

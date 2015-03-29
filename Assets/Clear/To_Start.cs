@@ -14,6 +14,6 @@ public class To_Start : MonoBehaviour {
 	}
 
     public void Click(){
-        Application.LoadLevel(3);
+        Application.LoadLevel("Start");
     }
 }
