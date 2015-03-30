@@ -1,0 +1,120 @@
+fileFormatVersion: 2
+guid: 18b717d5eb30479478ec315d03c353fe
+ModelImporter:
+  serializedVersion: 16
+  fileIDToRecycleName:
+    100000: Ear_L
+    100002: Ear_R
+    100004: Eye_L
+    100006: Eye_R
+    100008: Foot_R
+    100010: Foot_R.001
+    100012: //RootNode
+    100014: Hand_R
+    100016: Hnad_L
+    100018: Nose
+    100020: Tail
+    100022: Tooth
+    400000: Ear_L
+    400002: Ear_R
+    400004: Eye_L
+    400006: Eye_R
+    400008: Foot_R
+    400010: Foot_R.001
+    400012: //RootNode
+    400014: Hand_R
+    400016: Hnad_L
+    400018: Nose
+    400020: Tail
+    400022: Tooth
+    2300000: Ear_L
+    2300002: Ear_R
+    2300004: Eye_L
+    2300006: Eye_R
+    2300008: Foot_R
+    2300010: Foot_R.001
+    2300012: //RootNode
+    2300014: Hand_R
+    2300016: Hnad_L
+    2300018: Nose
+    2300020: Tail
+    2300022: Tooth
+    3300000: Ear_L
+    3300002: Ear_R
+    3300004: Eye_L
+    3300006: Eye_R
+    3300008: Foot_R
+    3300010: Foot_R.001
+    3300012: //RootNode
+    3300014: Hand_R
+    3300016: Hnad_L
+    3300018: Nose
+    3300020: Tail
+    3300022: Tooth
+    4300000: Body
+    4300002: Tail
+    4300004: Foot_R.001
+    4300006: Foot_R
+    4300008: Hnad_L
+    4300010: Hand_R
+    4300012: Tooth
+    4300014: Ear_R
+    4300016: Ear_L
+    4300018: Nose
+    4300020: Eye_R
+    4300022: Eye_L
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: .00999999978
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  additionalBone: 0
+  userData: 
